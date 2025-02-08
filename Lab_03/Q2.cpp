@@ -2,29 +2,24 @@
 using namespace std;
 
 class Date {
-    public :
-    int _month;
-    int _day;
-    int _year;
+    public : 
+    int month;
+    int day;
+    int year;
 
-    void displayDate(){
-        cout << _month << "/" << _day << "/" << _year << endl;
+    void displayDate () {
+        cout << month << "/" << day << "/" << year;
     };
 };
 
 
-
 int main(){
+
     Date date;
-    int month, day, year;
+    
 
-    cout << "Enter month, day and year :"<<endl;
-    cin >> month >> day >> year;
-
-    date._month = month;
-    date._day = day;
-    date._year = year;
+    cout << "Enter month, day and year respectively : " << endl;
+    cin >> date.month >> date.day >> date.year;
 
     date.displayDate();
-
 }

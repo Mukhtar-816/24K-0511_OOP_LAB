@@ -1,12 +1,13 @@
 #include <iostream>
 using namespace std;
 
-class User{
+
+class User {
     public :
     int Age;
     string Name;
-};
 
+};
 
 
 int main(){
@@ -15,5 +16,5 @@ int main(){
     user.Name = "Teo";
     user.Age = 24;
 
-    cout << "My name is " << user.Name << " and I'm " << user.Age << " years old";
+    cout << "My Name is " << user.Name << " and I'm " << user.Age << " years old";
 }
